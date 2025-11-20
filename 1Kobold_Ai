@@ -15,12 +15,14 @@ public int manaOnKill;
     public int reactionTime;
     public int dodgeChance;
 private bool isSprinting;
-public bool unstunnable;
+//how long stunned after a hit
+public int maxStunTime;
+public bool stunned;
 
   public int closeMaxCooldown;
     private int closeCooldown;
     public int closeAttackSpeed;
-   public int damageClose;
+   public int closeDamage;
 
     public GameObject sightline;
     public GameObject attackCloseTrigger;
