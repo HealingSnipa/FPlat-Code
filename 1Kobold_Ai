@@ -1,0 +1,49 @@
+using UnityEngine;
+
+public class Kobold_AI  : MonoBehaviour
+{
+
+
+    //variable
+    public int maxHealth;
+    private int health;
+
+public int manaOnHit;
+public int manaOnKill;
+
+    public int speed;
+    public int reactionTime;
+    public int dodgeChance;
+private bool isSprinting;
+public bool unstunnable;
+
+  public int closeMaxCooldown;
+    private int closeCooldown;
+    public int closeAttackSpeed;
+   public int damageClose;
+
+    public GameObject sightline;
+    public GameObject attackCloseTrigger;
+public GameObject retreatTrigger;
+    
+    public GameObject attackClose;
+    private int scale;
+
+private Animator koboldAnimator;
+private RigidBody koboldRigidbody;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+health=maxHealth;
+
+
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        
+    }
+}
+
