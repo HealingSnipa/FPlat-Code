@@ -18,6 +18,9 @@ public class Dragon_Ai : MonoBehaviour
     public int attackDistance;
 
     public GameObject sightline;
+    public GameObject attackFarTrigger;
+    public Gameobject attackCloseTrigger
+    
     public GameObject attackFar;
     public GameObject attackClose;
     private int scale;
@@ -38,3 +41,4 @@ public class Dragon_Ai : MonoBehaviour
         
     }
 }
+
